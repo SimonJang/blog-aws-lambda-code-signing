@@ -1,0 +1,14 @@
+{
+    "FunctionName": "code-signed-lambda",
+    "Runtime": "nodejs14.x",
+    "Role": "arn:aws:iam::005279744545:role/InfraStack-concurrentlambdaServiceRole407FBA72-12UOUF17H8A8A",
+    "Handler": "index.handler",
+    "Code": {
+        "S3Bucket": "cloudway-blog-post.code-signing-poc",
+        "S3Key": "signed/3ac6017f-70b5-4762-bcb5-9cf4481066b6.zip",
+        "S3ObjectVersion": "Jp8Y3VkYLY26UokpxE73ISimff_tnnIE"
+    },
+    "Timeout": 10,
+    "MemorySize": 128,
+    "CodeSigningConfigArn": "arn:aws:lambda:eu-west-1:005279744545:code-signing-config:csc-0b797a131750c9d67"
+}

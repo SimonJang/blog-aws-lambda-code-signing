@@ -1,0 +1,6 @@
+{
+    "FunctionName": "code-signed-lambda",
+    "S3Bucket": "cloudway-blog-post.code-signing-poc",
+    "S3Key": "function.zip",
+    "S3ObjectVersion": "0FSMh8xzKkcEka1LIVfbhD_XMBBHMzxT"
+}

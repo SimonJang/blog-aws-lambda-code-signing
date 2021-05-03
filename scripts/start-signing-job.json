@@ -1,0 +1,16 @@
+{
+    "source": {
+        "s3": {
+            "bucketName": "cloudway-blog-post.code-signing-poc",
+            "key": "function.zip",
+            "version": "0FSMh8xzKkcEka1LIVfbhD_XMBBHMzxT"
+        }
+    },
+    "destination": {
+        "s3": {
+            "bucketName": "cloudway-blog-post.code-signing-poc",
+            "prefix": "signed/"
+        }
+    },
+    "profileName": "codesigningprofileAB4A958B_6ujWiwFybZIZ"
+}
